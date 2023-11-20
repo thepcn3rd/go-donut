@@ -1,5 +1,12 @@
 package main
 
+/*
+// To cross compile for linux
+GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o donut.bin -ldflags "-w -s" mai
+n.go
+*/
+
+
 import (
 	"io/ioutil"
 	"log"
